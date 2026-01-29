@@ -44,7 +44,7 @@
     {
       "type": "section",
       "title": "Events and States",
-      "icon": "antenna-bars"
+      "icon": "data_object"
     },
     {
       "type": "item",
@@ -59,7 +59,7 @@
     {
       "type": "section",
       "title": "Advanced",
-      "icon": "tools"
+      "icon": "build"
     },
     {
       "type": "item",
