@@ -20,7 +20,7 @@
           "title": "General Settings",
           "content": {
             "type": "markdown",
-            "body": "### Fields\n- **Icon Mode**: Choose between displaying country flags, a custom icon, or none.\n- **Custom Icon**: Specify a Material Icon or Unicode emoji.\n- **Dropdown Color**: Set the background color of the dropdown.\n\n![Icon Mode Example](https://via.placeholder.com/600x300?text=Icon+Mode+Example)\n\n### Example\nSet the dropdown color to `#FF5733` for a vibrant look."
+            "body": "### Fields\n- **Icon Mode**: Choose between displaying country flags, a custom icon, or none.\n- **Custom Icon**: Specify a Material Icon or Unicode emoji.\n- **Dropdown Color**: Set the background color of the dropdown.\n\n![Icon Mode Example](https://nebulapps.com.br/plugins-banner.png)\n\n### Example\nSet the dropdown color to `#FF5733` for a vibrant look."
           }
         },
         {
