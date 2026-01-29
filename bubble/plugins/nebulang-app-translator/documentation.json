@@ -1,1 +1,75 @@
-
+{
+  "items": [
+    {
+      "type": "section",
+      "title": "Getting Started",
+      "icon": "rocket"
+    },
+    {
+      "type": "item",
+      "title": "Install the Nebulang App Translator",
+      "subtitle": "From the Bubble Plugin Marketplace",
+      "body": "## Install\n1. Open the **Bubble Plugin Marketplace**.\n2. Search for **Nebulang App Translator**.\n3. Click **Install**."
+    },
+    {
+      "type": "section",
+      "title": "Configuration",
+      "icon": "settings"
+    },
+    {
+      "type": "item",
+      "title": "General Settings",
+      "body": "### Fields\n- **Icon Mode**: Choose between displaying country flags, a custom icon, or none.\n- **Custom Icon**: Specify a Material Icon or Unicode emoji.\n- **Dropdown Color**: Set the background color of the dropdown.\n- **Font Color**: Customize the text color.\n- **Option Hovered Color**: Define the background color when hovering over options.\n- **Font Hovered Color**: Set the text color when hovering over options.\n- **Active Option Background Color**: Highlight the selected option.\n- **Dropdown Arrow Color**: Customize the dropdown arrow color."
+    },
+    {
+      "type": "item",
+      "title": "Display Options",
+      "body": "### Fields\n- **Show Scrollbar**: Toggle the scrollbar visibility.\n- **Show Dropdown Arrow**: Show or hide the dropdown arrow.\n- **Show Search Bar**: Enable a search bar in the dropdown.\n- **Tooltip**: Add a tooltip for the translation button.\n- **Arrow Position**: Set the position of the dropdown arrow (left or right)."
+    },
+    {
+      "type": "item",
+      "title": "Padding and Alignment",
+      "body": "### Fields\n- **Icon/Flag Gap**: Adjust the gap between the icon/flag and text.\n- **Content Alignment**: Align content within the button.\n- **Padding Top/Right/Bottom/Left**: Set padding for the button and dropdown items."
+    },
+    {
+      "type": "item",
+      "title": "List Settings",
+      "body": "### Fields\n- **List Height**: Define the maximum height of the dropdown list.\n- **List Margin**: Set the margin between the dropdown list and the button.\n- **List Animation Duration**: Control the animation duration for the dropdown."
+    },
+    {
+      "type": "item",
+      "title": "Translation Options",
+      "body": "### Fields\n- **Translate Page Title**: Choose whether to translate the browser tab title.\n- **Initial Language**: Set the default language (e.g., 'auto', 'original', or a specific language code).\n- **Language List**: Provide a comma-separated list of supported languages."
+    },
+    {
+      "type": "section",
+      "title": "Events and States",
+      "icon": "antenna-bars"
+    },
+    {
+      "type": "item",
+      "title": "Events",
+      "body": "### language_changed\nTriggered when the selected language changes."
+    },
+    {
+      "type": "item",
+      "title": "States",
+      "body": "### selected_language\nReflects the currently selected language."
+    },
+    {
+      "type": "section",
+      "title": "Advanced",
+      "icon": "tools"
+    },
+    {
+      "type": "item",
+      "title": "Prevent Translation",
+      "body": "### Instructions\nAdd 'no-translate' to the 'ID Attribute' field in the element customization panel to prevent translation."
+    },
+    {
+      "type": "item",
+      "title": "Customizing Appearance",
+      "body": "### Tips\nUse Bubble's default style settings to customize the widget's background color, including gradients and images."
+    }
+  ]
+}
