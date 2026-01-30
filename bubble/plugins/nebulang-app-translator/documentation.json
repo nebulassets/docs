@@ -1,93 +1,43 @@
 {
   "tabs": {
-    "Getting Started": {
-      "icon": "rocket",
+    "Introduction": {
+      "icon": "menu_book",
       "sections": [
         {
-          "title": "Install the Nebulang App Translator",
-          "subtitle": "From the Bubble Plugin Marketplace",
+          "title": "What is the Nebulang App Translator?",
           "content": {
             "type": "markdown",
-            "body": "## Install\n1. Open the **Bubble Plugin Marketplace**.\n2. Search for **Nebulang App Translator**.\n3. Click **Install**.\n\n![Marketplace Screenshot](https://via.placeholder.com/600x300?text=Bubble+Plugin+Marketplace)\n\n### Example\nAfter installation, the plugin will appear in your Bubble editor under the Plugins tab."
-          }
-        }
-      ]
-    },
-    "Configuration": {
-      "icon": "settings",
-      "sections": [
-        {
-          "title": "General Settings",
-          "content": {
-            "type": "markdown",
-            "body": "### Fields\n- **Icon Mode**: Choose between displaying country flags, a custom icon, or none.\n- **Custom Icon**: Specify a Material Icon or Unicode emoji.\n- **Dropdown Color**: Set the background color of the dropdown.\n\n![Icon Mode Example](https://nebulapps.com.br/plugins-banner.png)\n\n### Example\nSet the dropdown color to `#FF5733` for a vibrant look."
+            "body": "The **Nebulang App Translator** is a Bubble plugin designed to translate your application content dynamically, without changing URLs, reloading pages, or breaking your existing workflows.\n\nUnlike traditional translation approaches that rely on page redirects or static language versions, this plugin works directly on the rendered DOM, allowing real-time language switching with full control over what should — or should not — be translated."
           }
         },
         {
-          "title": "Display Options",
+          "title": "Why use this plugin?",
           "content": {
             "type": "markdown",
-            "body": "### Fields\n- **Show Scrollbar**: Toggle the scrollbar visibility.\n- **Show Dropdown Arrow**: Show or hide the dropdown arrow.\n\n![Display Options Example](https://via.placeholder.com/600x300?text=Display+Options)\n\n### Example\nEnable the search bar to allow users to quickly find their desired language."
+            "body": "Managing multi-language applications in Bubble often requires:\n\n- Duplicated pages\n\n- Complex conditionals\n\n- External redirection logic\n\n- SEO compromises\n\n> This plugin eliminates that complexity by offering a **client-side translation layer**, enabling you to translate content instantly while preserving your app structure."
           }
         },
         {
-          "title": "Padding and Alignment",
+          "title": "Who is this plugin for?",
           "content": {
             "type": "markdown",
-            "body": "### Fields\n- **Icon/Flag Gap**: Adjust the gap between the icon/flag and text.\n- **Content Alignment**: Align content within the button.\n\n![Padding Example](https://via.placeholder.com/600x300?text=Padding+and+Alignment)\n\n### Example\nSet the padding to `10px` on all sides for a balanced layout."
+            "body": "This plugin is ideal for:\n- SaaS platforms targeting international users\n- Landing pages with multi-language support\n- Marketplaces and dashboards\n- Apps that require language switching without page reloads"
           }
         },
         {
-          "title": "List Settings",
+          "title": "What this plugin does not do",
           "content": {
             "type": "markdown",
-            "body": "### Fields\n- **List Height**: Define the maximum height of the dropdown list.\n- **List Margin**: Set the margin between the dropdown list and the button.\n\n![List Settings Example](https://via.placeholder.com/600x300?text=List+Settings)\n\n### Example\nSet the list height to `200px` for better visibility of options."
+            "body": "To avoid misunderstandings, it's important to clarify:\n- It does **not** create separate language pages\n- It does **not** change your app URLs\n- It does **not** automatically translate database content unless rendered on the page"
           }
         },
         {
-          "title": "Translation Options",
+          "title": "How it works",
           "content": {
             "type": "markdown",
-            "body": "### Fields\n- **Translate Page Title**: Choose whether to translate the browser tab title.\n- **Initial Language**: Set the default language (e.g., 'auto', 'original', or a specific language code).\n\n![Translation Options Example](https://via.placeholder.com/600x300?text=Translation+Options)\n\n### Example\nSet the initial language to `en` for English as the default."
-          }
-        }
-      ]
-    },
-    "Events and States": {
-      "icon": "data_object",
-      "sections": [
-        {
-          "title": "Events",
-          "content": {
-            "type": "markdown",
-            "body": "### language_changed\nTriggered when the selected language changes.\n\n![Event Example](https://via.placeholder.com/600x300?text=Event+Triggered)\n\n### Example\nUse this event to log the selected language in your app's database."
-          }
-        },
-        {
-          "title": "States",
-          "content": {
-            "type": "markdown",
-            "body": "### selected_language\nReflects the currently selected language.\n\n![State Example](https://via.placeholder.com/600x300?text=Selected+Language)\n\n### Example\nDisplay the selected language in the app's header."
-          }
-        }
-      ]
-    },
-    "Advanced": {
-      "icon": "build",
-      "sections": [
-        {
-          "title": "Prevent Translation",
-          "content": {
-            "type": "markdown",
-            "body": "### Instructions\nAdd 'no-translate' to the 'ID Attribute' field in the element customization panel to prevent translation.\n\n![Prevent Translation Example](https://via.placeholder.com/600x300?text=No+Translate)\n\n### Example\nUse this feature to exclude sensitive data from being translated."
-          }
-        },
-        {
-          "title": "Customizing Appearance",
-          "content": {
-            "type": "markdown",
-            "body": "### Tips\nUse Bubble's default style settings to customize the widget's background color, including gradients and images.\n\n![Custom Appearance Example](https://via.placeholder.com/600x300?text=Custom+Appearance)\n\n### Example\nApply a gradient background for a modern look."
-          }
+            "body": "1. The plugin detects the current page language\n2. A language selector allows the user to switch languages\n3. The plugin translates visible text nodes dynamically\n4. Protected elements (using `no-translate`) are ignored\n1. Events and states expose the selected language to Bubble workflows"
+          },
+          "subtitle": "high-level overview"
         }
       ]
     }
