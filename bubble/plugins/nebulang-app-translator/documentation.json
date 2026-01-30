@@ -40,6 +40,61 @@
           "subtitle": "high-level overview"
         }
       ]
+    },
+    "Getting Started": {
+      "icon": "rocket_launch",
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": {
+            "type": "markdown",
+            "body": "This section will guide you through the initial setup of the plugin, ensuring you can get it up and running quickly and correctly inside your Bubble application.\nThe goal here is not just installation, but achieving a **first successful and functional setup**, so you can confidently continue configuring and customizing the plugin."
+          }
+        },
+        {
+          "title": "Installation",
+          "content": {
+            "type": "markdown",
+            "body": "To install the plugin, follow these steps:\n1. Open your Bubble application editor\n2. Navigate to the **Plugins** tab\n3. Click on **Add plugins**\n4. Search for the plugin name in the Bubble Plugin Marketplace\n5. Click **Install**\nOnce installed, the plugin will be available globally in your application and ready to be configured.\n> 💡 Tip  \n> You do not need to reinstall the plugin when switching environments (Development / Live). Bubble handles this automatically."
+          }
+        },
+        {
+          "title": "Adding the Plugin to the Page",
+          "content": {
+            "type": "markdown",
+            "body": "Depending on the plugin type, one of the following will apply:\n- **Element-based plugin**  \n  The plugin will appear in the **Visual Elements** panel and can be dragged onto any page or reusable element.\n- **Non-element plugin**  \n  The plugin runs globally and does not require placing an element on the page. Configuration is handled entirely through plugin settings and workflows.\nMake sure the plugin is present (or initialized) on every page where its functionality is expected to work."
+          }
+        },
+        {
+          "title": "Minimal Required Configuration",
+          "content": {
+            "type": "markdown",
+            "body": "Before the plugin can work correctly, a minimal setup is required.\nAt this stage, you should:\n- Open the plugin configuration panel\n- Review the default values\n- Set only the fields required for basic functionality\nThe plugin is designed to work out-of-the-box with sensible defaults, allowing you to test it without advanced configuration.\n> ⚠️ Important  \n> Avoid over-customizing at this stage. The goal is to confirm that the plugin works as expected before applying visual or advanced settings."
+          }
+        },
+        {
+          "title": "First Test",
+          "content": {
+            "type": "markdown",
+            "body": "After installation and minimal configuration, perform a quick test:\n\n1. Preview your app\n2. Interact with the plugin (or the UI element it controls)\n3. Confirm that:\n   - The plugin initializes correctly\n   - No console errors are displayed\n   - The expected behavior occurs\n\nIf the plugin exposes **states or events**, verify that:\n- States are updating as expected\n- Events are being triggered at the correct time\n\nThis confirms that the plugin is properly installed and connected to Bubble’s runtime."
+          },
+          "subtitle": "Recommended"
+        },
+        {
+          "title": "Common Setup Mistakes",
+          "content": {
+            "type": "markdown",
+            "body": "When getting started, avoid these common issues:\n- Forgetting to place the element on the page (for element-based plugins)\n- Testing only in the editor instead of Preview mode\n- Expecting database content to update automatically without workflows\n- Applying advanced settings before validating the basic setup\nTaking a few minutes to validate the initial setup will save significant time later."
+          }
+        },
+        {
+          "title": "What’s Next?",
+          "content": {
+            "type": "markdown",
+            "body": "Now that the plugin is installed and working:\n- Proceed to the **Configuration** tab to customize behavior and appearance\n- Explore **Events and States** to integrate the plugin into workflows\n- Review **Advanced Usage** once the core setup is stable\nYou’re now ready to fully leverage the plugin in your application."
+          }
+        }
+      ]
     }
   }
 }
